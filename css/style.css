@@ -1,0 +1,93 @@
+/* navbar section */
+#navsection
+{
+  background-image: url("../images/Background.png");
+
+}
+
+/* #navsection
+{
+  background: rgb(242,238,151);
+  background: radial-gradient(circle, rgba(242,238,151,1) 0%, rgba(251,239,7,1) 100 );
+} */
+
+.nav-item a
+{
+    font-family: 'Nunito', sans-serif;
+    color: #918f6e;
+    list-style: none;
+    padding: 0px 10px;
+    display:inline;
+    text-decoration: none;
+    opacity: 0.6;
+    transition: 0.3s;
+    font-weight: 600;
+}
+.nav-item a:hover
+{
+  color: #918f6e;
+  opacity: 1
+}
+
+
+.here
+{
+  width: 100%;
+  height: 625px;
+  object-fit: fill;
+}
+.wedoimg
+{
+  margin-top:100px;
+  height: 350px;
+}
+.Dots
+{
+  margin-top: 50px;
+  width: 50%;
+}
+.nopadding
+{
+  padding: 0;
+}
+@media only screen and (max-width: 600px) {
+  .container-fluid
+  {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .navbar-toggler
+  {
+    margin-left: 15px;
+  }
+  .navbar-nav
+  {
+   background-color: #A1887F;
+   margin-top: 10px;
+
+  }
+  .nav-item
+  {
+    text-align: center;
+    margin: 5px 0;
+  }
+  .nav-item a
+  {
+    color: #fbef07;
+  }
+  .one
+  {
+    margin-left: 5px;
+  }
+
+  .here
+  {
+    display: none;
+  }
+  .Dots
+  {
+    margin-bottom: 50px;
+  }
+
+}
